@@ -1,0 +1,118 @@
+# ======================================================
+# Core .NET / ASP.NET build artifacts
+# ======================================================
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.log
+*.tmp
+*.temp
+
+# ======================================================
+# User-specific and IDE configuration
+# ======================================================
+.vscode/
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ======================================================
+# Node / Frontend build artifacts
+# ======================================================
+node_modules/
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================================================
+# OS generated files
+# ======================================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ======================================================
+# Temporary / Upload / Runtime folders
+# ======================================================
+App_Data/Uploads/
+App_Data/Temp/
+App_Data/Cache/
+App_Data/Exports/
+App_Data/Logs/
+App_Data/Downloads/
+App_Data/Backups/
+App_Data/Working/
+App_Data/ConvertedFiles/
+
+# Ignore everything inside dev-work folder
+DataXConvert/Repos-main/DataConverter/App_Data/dev-work/**
+
+# ======================================================
+# Large data / test / import files
+# ======================================================
+*.csv
+*.xlsx
+*.xls
+*.xml
+*.json
+*.zip
+*.gz
+*.tar
+*.rar
+
+# ======================================================
+# Database files
+# ======================================================
+# Ignore all except dev-auth.db
+*.mdb
+*.accdb
+*.sqlite
+*.db
+!dev-auth.db
+
+# ======================================================
+# Logs / Runtime Reports
+# ======================================================
+logs/
+*.log
+*.trace
+*.bak
+*.old
+
+# ======================================================
+# Environment and secrets
+# ======================================================
+.env
+.env.local
+.env.development
+.env.production
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.secret.json
+
+# ======================================================
+# System cache and package lock
+# ======================================================
+*.cache
+*.lock
+package-lock.json
+yarn.lock
+
+# ======================================================
+# Visual Studio generated publish artifacts
+# ======================================================
+wwwroot/
+PublishProfiles/
+*.pubxml
+*.publish.xml
